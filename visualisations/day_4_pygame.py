@@ -1,7 +1,7 @@
 import pygame
 import re
 
-WORDSEARCH_SIZE = 100
+WORDSEARCH_SIZE = 50
 
 with open('../day_4/day_4.txt') as f:
     rows = [row[:WORDSEARCH_SIZE] for row in f.read().splitlines()[:WORDSEARCH_SIZE]]

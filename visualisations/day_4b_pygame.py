@@ -25,8 +25,6 @@ for center in centers:
     x_mases.append((center[0] - 1, center[1] + 1))
     x_mases.append((center[0] + 1, center[1] - 1))
 
-print(x_mases)
-
 # Part B answer
 print(total)
 
